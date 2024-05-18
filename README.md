@@ -13,3 +13,16 @@ This project seeks to bridge the gap between traditional reading practices and m
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgements](#acknowledgements)
+
+## Installation
+1. Step 1: Do this.
+2. Step 2: Do that.
+3. Step 3: Then do this.
+
+## Usage
+```bash
+# Example command
+$ example command
+
+# Example usage
+$ another example usage
