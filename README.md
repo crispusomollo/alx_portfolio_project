@@ -17,12 +17,12 @@ This project seeks to bridge the gap between traditional reading practices and m
 ## Installation
 1. Install Flask
 2. Install MongoDB
-3. Install pip 
+3. Install PyMongo 
 
 ## Usage
 ```bash
 # Install Flask
-$ ..
+$ pip3 install pymongo
 
 # Install Express.js
 $ ...
