@@ -15,15 +15,15 @@ This project seeks to bridge the gap between traditional reading practices and m
 - [Acknowledgements](#acknowledgements)
 
 ## Installation
-1. Step 1: Do this.
-2. Step 2: Do that.
-3. Step 3: Then do this.
+1. Install Flask
+2. Install MongoDB
+3. Install pip 
 
 ## Usage
 ```bash
-# Example command
-$ example command
+# Install Flash
+$ pip install flask
 
-# Example usage
-$ another example usage
+# Install Express.js
+$ ...
 
