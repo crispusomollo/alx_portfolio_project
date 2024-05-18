@@ -21,8 +21,8 @@ This project seeks to bridge the gap between traditional reading practices and m
 
 ## Usage
 ```bash
-# Install Flash
-$ pip install flask
+# Install Flask
+$ ..
 
 # Install Express.js
 $ ...
