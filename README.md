@@ -21,9 +21,9 @@ This project seeks to bridge the gap between traditional reading practices and m
 
 ## Usage
 ```bash
-# Install Flask
-$ pip3 install pymongo
+# Using with Flask
+$ pip install Flask pymongo
 
-# Install Express.js
-$ ...
-
+# Using with Express.js
+$ npm init -y
+$ npm install express mongoose body-parser
