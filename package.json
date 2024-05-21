@@ -1,0 +1,20 @@
+{
+  "name": "alx_portfolio_project",
+  "version": "1.0.0",
+  "description": "This is my Webstack Specialization portfolio project for my ALX Software Engineering program.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/crispusomollo/alx_portfolio_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crispusomollo/alx_portfolio_project/issues"
+  },
+  "homepage": "https://github.com/crispusomollo/alx_portfolio_project#readme"
+}
