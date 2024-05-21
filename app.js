@@ -6,7 +6,7 @@ const app = express();
 const port = 3000;
 
 //Midlleware for parsing JSON
-app.use(express.json())
+app.use(json())
 
-mongoose.connect('mongodb://localhost:27017/bookapi', { useNewUrlParser: true, useUnifiedTopology: true})
+connect('mongodb://localhost:27017/bookapi', { useNewUrlParser: true, useUnifiedTopology: true})
 
