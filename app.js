@@ -1,29 +1,21 @@
 const express = require('express');
-const mongoose = require('mongoose');
+const connectDB = require('./config/db');
 const bodyParser = require('body-parser');
-//const { MongoClient } = require('mongodb');
 
 const app = express();
-const port = 5000;
-app.listen(port, () => {
-    console.log('Server running on http://localhost:${port}')
-});
 
-//Midlleware for parsing JSON
-app.use(json());
+// Connect Database
+connectDB();
 
-connect('mongodb://localhost:27017/bookapi', { useNewUrlParser: true, useUnifiedTopology: true});
-// Connection URL
-//const url = 'mongodb://localhost:27017';
-//const client = new MongoClient(url);
+// Init Middleware
+app.use(bodyParser.json());
 
-// Database Name
-//const dbName = 'bookapi';
+// Define Routes
+app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/books', require('./routes/bookRoutes'));
+app.use('/api/progress', require('./routes/progressRoutes'));
 
-const bookSchema = new mongoose.Schema({
-    title: String,
-    author: String,
-    publishedYear: Number,
-    notes: String,
-    reviews: String
-});
+const PORT = process.env.PORT || 5000;
+
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
+
